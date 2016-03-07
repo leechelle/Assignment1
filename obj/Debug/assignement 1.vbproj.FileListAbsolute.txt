@@ -1,0 +1,24 @@
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\bin\Debug\assignement 1.exe.config
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\bin\Debug\assignement 1.exe
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\bin\Debug\assignement 1.pdb
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\bin\Debug\assignement 1.xml
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement_1.Form1.resources
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement_1.Resources.resources
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement 1.vbproj.GenerateResource.Cache
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement 1.exe
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement 1.xml
+C:\Users\Leechellek\AppData\Local\Temporary Projects\assignement 1\obj\Debug\assignement 1.pdb
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\assignement 1.exe.config
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement 1.exe
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement 1.xml
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement 1.pdb
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\assignement 1.exe
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\assignement 1.pdb
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\assignement 1.xml
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement 1.vbprojResolveAssemblyReference.cache
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement_1.Form1.resources
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement_1.Form2.resources
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement_1.Resources.resources
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement 1.vbproj.GenerateResource.Cache
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement_1.Form3.resources
+C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\obj\Debug\assignement_1.Form4.resources

@@ -30,30 +30,34 @@ Public Class Form3
 
 
 
-        Dim path As String = "C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\MEMBER.txt "
-        Dim text As New FileStream(path, FileMode.Create, FileAccess.Write)
+        Dim path As String = "MEMBER.txt "
+        If System.IO.File.Exists(path) = True Then
+            Dim text As New FileStream(path, FileMode.Create, FileAccess.Write)
 
-        text.Close()
-
-
-
-        Dim file As System.IO.StreamWriter
-        file = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\MEMBER.txt ", True)
-
-        file.WriteLine(txtMembership.Text & "")
-        file.WriteLine(txtFirstName.Text & "")
-        file.WriteLine(txtSurname.Text & "")
-        file.WriteLine(DateTimePicker1.Text & "")
-        file.WriteLine(DateTimePicker2.Text & "")
-        file.WriteLine(txtOutFee.Text & "")
-        file.WriteLine(txtRace.Text & "")
-        file.WriteLine(txtRaceTime.Text & "")
+            text.Close()
 
 
 
-        file.Close()
+            Dim file As System.IO.StreamWriter
+            file = My.Computer.FileSystem.OpenTextFileWriter("MEMBER.txt ", True)
+
+            file.WriteLine("Membership Number = " + txtMembership.Text & ",")
+            file.WriteLine("First name = " + txtFirstName.Text & ",")
+            file.WriteLine("Surname = " + txtSurname.Text & ",")
+            file.WriteLine("Date of Birth = " + DateTimePicker1.Text & ",")
+            file.WriteLine("Date Joined = " + DateTimePicker2.Text & ",")
+            file.WriteLine("Oustanding fee = " + txtOutFee.Text & ",")
+            file.WriteLine("Race In = " + txtRace.Text & ",")
+            file.WriteLine("Race time Completed = " + txtRaceTime.Text & ",")
 
 
+
+            file.Close()
+
+            MessageBox.Show("file saved")
+        Else
+            MessageBox.Show("File didnt save")
+        End If
 
         If Not IsNumeric(txtMembership.Text) Then
             MessageBox.Show("please enter a Membership Number")
@@ -95,7 +99,7 @@ Public Class Form3
         ListBox1.Items.Add(g)
         ListBox1.Items.Add(h)
 
-        Form4.ComboBox1.Items.Add(txtMembership.Text)
+        Form4.MemberInfo.Items.Add(txtMembership.Text)
 
 
         If (txtFemale.Checked = True) Then
@@ -125,6 +129,8 @@ Public Class Form3
         txtRace.Text = ""
         txtRaceTime.Text = ""
         txtRace.Text = ""
+
+        ListBox1.ClearSelected()
 
     End Sub
 End Class

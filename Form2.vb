@@ -8,22 +8,27 @@ Public Class Form2
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ButAdd.Click
-        Dim path As String = "C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\Details.txt "
-        Dim text As New FileStream(path, FileMode.Create, FileAccess.Write)
+        'SAVE DATA TO FILE
+        Dim path As String = "Details.txt "
+        If System.IO.File.Exists(path) = True Then
+            Dim text As New FileStream(path, FileMode.Create, FileAccess.Write)
+            text.Close()
 
-        text.Close()
 
 
+            Dim file As System.IO.StreamWriter
+            file = My.Computer.FileSystem.OpenTextFileWriter("Details.txt ", True)
 
-        Dim file As System.IO.StreamWriter
-        file = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\Leechellek\Documents\Visual Studio 2015\Projects\assignement 1\assignement 1\bin\Debug\Details.txt ", True)
-
-        file.WriteLine(txtEvent.Text & ",")
-        file.WriteLine(txtLocation.Text & ",")
-        file.WriteLine(txtRegfee.Text & ",")
-        file.WriteLine(DateTimePicker1.Text & ",")
-        file.WriteLine(txtTitle.Text & ",")
-        file.Close()
+            file.WriteLine(txtEvent.Text & ",")
+            file.WriteLine(txtLocation.Text & ",")
+            file.WriteLine(txtRegfee.Text & ",")
+            file.WriteLine(DateTimePicker1.Text & ",")
+            file.WriteLine(txtTitle.Text & ",")
+            file.Close()
+            MessageBox.Show("saved file")
+        Else
+            MessageBox.Show("did not create")
+        End If
 
     End Sub
 
