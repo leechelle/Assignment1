@@ -41,7 +41,7 @@ Partial Class Form3
         Me.txtRace = New System.Windows.Forms.TextBox()
         Me.txtRaceTime = New System.Windows.Forms.TextBox()
         Me.ButtSave = New System.Windows.Forms.Button()
-        Me.ButtEdit = New System.Windows.Forms.Button()
+        Me.txtEdit = New System.Windows.Forms.Button()
         Me.ButtDelete = New System.Windows.Forms.Button()
         Me.ButtBack = New System.Windows.Forms.Button()
         Me.ButtContinue = New System.Windows.Forms.Button()
@@ -208,14 +208,14 @@ Partial Class Form3
         Me.ButtSave.Text = "Save"
         Me.ButtSave.UseVisualStyleBackColor = True
         '
-        'ButtEdit
+        'txtEdit
         '
-        Me.ButtEdit.Location = New System.Drawing.Point(273, 394)
-        Me.ButtEdit.Name = "ButtEdit"
-        Me.ButtEdit.Size = New System.Drawing.Size(75, 23)
-        Me.ButtEdit.TabIndex = 20
-        Me.ButtEdit.Text = "Edit"
-        Me.ButtEdit.UseVisualStyleBackColor = True
+        Me.txtEdit.Location = New System.Drawing.Point(273, 394)
+        Me.txtEdit.Name = "txtEdit"
+        Me.txtEdit.Size = New System.Drawing.Size(75, 23)
+        Me.txtEdit.TabIndex = 20
+        Me.txtEdit.Text = "Edit"
+        Me.txtEdit.UseVisualStyleBackColor = True
         '
         'ButtDelete
         '
@@ -293,7 +293,7 @@ Partial Class Form3
         Me.Controls.Add(Me.ButtContinue)
         Me.Controls.Add(Me.ButtBack)
         Me.Controls.Add(Me.ButtDelete)
-        Me.Controls.Add(Me.ButtEdit)
+        Me.Controls.Add(Me.txtEdit)
         Me.Controls.Add(Me.ButtSave)
         Me.Controls.Add(Me.txtRaceTime)
         Me.Controls.Add(Me.txtRace)
@@ -339,7 +339,7 @@ Partial Class Form3
     Friend WithEvents txtRace As TextBox
     Friend WithEvents txtRaceTime As TextBox
     Friend WithEvents ButtSave As Button
-    Friend WithEvents ButtEdit As Button
+    Friend WithEvents txtEdit As Button
     Friend WithEvents ButtDelete As Button
     Friend WithEvents ButtBack As Button
     Friend WithEvents ButtContinue As Button

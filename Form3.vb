@@ -16,9 +16,9 @@ Public Class Form3
 
     Private Sub ButtAdd_Click(sender As Object, e As EventArgs) Handles ButtSave.Click
 
-        Dim rand As New Random()
-        Dim number = rand.Next(0, 999)
-        txtMembership.Text = number
+        Dim str As New Random()
+        Dim numbers = str.Next(0, 999)
+        txtMembership.Text = numbers
 
         DateTimePicker1.Format = DateTimePickerFormat.Custom
         DateTimePicker1.CustomFormat = "yy"
@@ -99,6 +99,8 @@ Public Class Form3
         ListBox1.Items.Add(g)
         ListBox1.Items.Add(h)
 
+        txtEdit.Text = ListBox1.SelectedIndex
+
         Form4.MemberInfo.Items.Add(txtMembership.Text)
 
 
@@ -131,6 +133,23 @@ Public Class Form3
         txtRace.Text = ""
 
         ListBox1.ClearSelected()
+
+    End Sub
+
+    Private Sub ButtEdit_Click(sender As Object, e As EventArgs) Handles txtEdit.Click
+
+
+
+
+
+        If ListBox1.Items.Count > 0 Then
+            If MessageBox.Show("updated the information ", "mesaage", MessageBoxButtons.OKCancel) Then
+                ListBox1.Items.Add(ListBox1.SelectedItem.ToString)
+            End If
+        End If
+
+
+
 
     End Sub
 End Class
