@@ -32,18 +32,18 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(44, 204)
+        Me.Button1.Location = New System.Drawing.Point(22, 199)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 23)
+        Me.Button1.Size = New System.Drawing.Size(156, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Click to Manage Events"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(291, 204)
+        Me.Button2.Location = New System.Drawing.Point(291, 193)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 23)
+        Me.Button2.Size = New System.Drawing.Size(174, 34)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Click to Manage Athletes"
         Me.Button2.UseVisualStyleBackColor = True
@@ -60,7 +60,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(54, 52)
+        Me.Label1.Location = New System.Drawing.Point(59, 52)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(77, 13)
         Me.Label1.TabIndex = 3
